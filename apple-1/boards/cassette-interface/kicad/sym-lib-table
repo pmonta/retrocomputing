@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name cassette)(type Legacy)(uri ${KIPRJMOD}/cassette.lib)(options "")(descr ""))
+)
