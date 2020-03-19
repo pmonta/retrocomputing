@@ -1,0 +1,15 @@
+set_io addr[0] E1
+set_io addr[1] F2
+set_io addr[2] D6
+set_io addr[3] E2
+set_io addr[4] C1
+set_io addr[5] C2
+set_io addr[6] B1
+set_io addr[7] A1
+set_io data[0] B3
+set_io data[1] B4
+set_io data[2] B5
+set_io data[3] B6
+set_io ce1_n   A3
+set_io ce2_n   A2
+set_io oe      C6
