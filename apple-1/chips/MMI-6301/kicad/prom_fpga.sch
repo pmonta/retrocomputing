@@ -1,0 +1,448 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L local:ICE40LP1K-CM36 U?
+U 1 1 5E86C238
+P 2250 4750
+AR Path="/5E86C238" Ref="U?"  Part="1" 
+AR Path="/5E85CF8D/5E86C238" Ref="U10"  Part="1" 
+F 0 "U10" H 1800 5500 50  0000 C CNN
+F 1 "ICE40LP1K-CM36" H 2000 5400 50  0000 C CNN
+F 2 "prom:ucBGA-36" H 2250 4750 50  0001 C CNN
+F 3 "" H 2250 4750 50  0001 C CNN
+	1    2250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L local:ICE40LP1K-CM36 U?
+U 3 1 5E86C23E
+P 5150 1750
+AR Path="/5E86C23E" Ref="U?"  Part="3" 
+AR Path="/5E85CF8D/5E86C23E" Ref="U10"  Part="3" 
+F 0 "U10" H 4150 2300 50  0000 C CNN
+F 1 "ICE40LP1K-CM36" H 4350 2200 50  0000 C CNN
+F 2 "prom:ucBGA-36" H 5150 1750 50  0001 C CNN
+F 3 "" H 5150 1750 50  0001 C CNN
+	3    5150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L local:ICE40LP1K-CM36 U?
+U 4 1 5E86C244
+P 5250 2750
+AR Path="/5E86C244" Ref="U?"  Part="4" 
+AR Path="/5E85CF8D/5E86C244" Ref="U10"  Part="4" 
+F 0 "U10" H 4100 3250 50  0000 C CNN
+F 1 "ICE40LP1K-CM36" H 4350 3150 50  0000 C CNN
+F 2 "prom:ucBGA-36" H 5250 2750 50  0001 C CNN
+F 3 "" H 5250 2750 50  0001 C CNN
+	4    5250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L local:ICE40LP1K-CM36 U?
+U 5 1 5E86C24A
+P 5250 4150
+AR Path="/5E86C24A" Ref="U?"  Part="5" 
+AR Path="/5E85CF8D/5E86C24A" Ref="U10"  Part="5" 
+F 0 "U10" H 4150 4600 50  0000 C CNN
+F 1 "ICE40LP1K-CM36" H 4350 4500 50  0000 C CNN
+F 2 "prom:ucBGA-36" H 5250 4150 50  0001 C CNN
+F 3 "" H 5250 4150 50  0001 C CNN
+	5    5250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L local:ICE40LP1K-CM36 U?
+U 6 1 5E86C250
+P 5250 5350
+AR Path="/5E86C250" Ref="U?"  Part="6" 
+AR Path="/5E85CF8D/5E86C250" Ref="U10"  Part="6" 
+F 0 "U10" H 4150 5750 50  0000 C CNN
+F 1 "ICE40LP1K-CM36" H 4350 5650 50  0000 C CNN
+F 2 "prom:ucBGA-36" H 5250 5350 50  0001 C CNN
+F 3 "" H 5250 5350 50  0001 C CNN
+	6    5250 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L local:ICE40LP1K-CM36 U?
+U 2 1 5E86D041
+P 7350 4450
+AR Path="/5E86D041" Ref="U?"  Part="2" 
+AR Path="/5E85CF8D/5E86D041" Ref="U10"  Part="2" 
+F 0 "U10" H 6500 4750 50  0000 C CNN
+F 1 "ICE40LP1K-CM36" H 6700 4650 50  0000 C CNN
+F 2 "prom:ucBGA-36" H 7350 4450 50  0001 C CNN
+F 3 "" H 7350 4450 50  0001 C CNN
+	2    7350 4450
+	1    0    0    -1  
+$EndComp
+Text Notes 7650 6950 0    150  ~ 0
+FPGA and SPI flash
+$Comp
+L power:GND #PWR026
+U 1 1 5E915F0B
+P 2650 5450
+F 0 "#PWR026" H 2650 5200 50  0001 C CNN
+F 1 "GND" H 2655 5277 50  0000 C CNN
+F 2 "" H 2650 5450 50  0001 C CNN
+F 3 "" H 2650 5450 50  0001 C CNN
+	1    2650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5E91627E
+P 9450 5450
+F 0 "#PWR031" H 9450 5200 50  0001 C CNN
+F 1 "GND" H 9455 5277 50  0000 C CNN
+F 2 "" H 9450 5450 50  0001 C CNN
+F 3 "" H 9450 5450 50  0001 C CNN
+	1    9450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR025
+U 1 1 5E91732E
+P 2650 4050
+F 0 "#PWR025" H 2650 3900 50  0001 C CNN
+F 1 "+3.3V" H 2665 4223 50  0000 C CNN
+F 2 "" H 2650 4050 50  0001 C CNN
+F 3 "" H 2650 4050 50  0001 C CNN
+	1    2650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR027
+U 1 1 5E917DDE
+P 2800 4950
+F 0 "#PWR027" H 2800 4800 50  0001 C CNN
+F 1 "+1V2" H 2815 5123 50  0000 C CNN
+F 2 "" H 2800 4950 50  0001 C CNN
+F 3 "" H 2800 4950 50  0001 C CNN
+	1    2800 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4750 2650 4750
+Wire Wire Line
+	2650 4750 2650 4650
+Wire Wire Line
+	2450 4650 2650 4650
+Connection ~ 2650 4650
+Wire Wire Line
+	2650 4650 2650 4450
+Wire Wire Line
+	2450 4450 2650 4450
+Connection ~ 2650 4450
+Wire Wire Line
+	2650 4450 2650 4350
+Wire Wire Line
+	2450 4350 2650 4350
+Connection ~ 2650 4350
+Wire Wire Line
+	2650 4350 2650 4250
+Wire Wire Line
+	2450 4250 2650 4250
+Connection ~ 2650 4250
+Wire Wire Line
+	2650 4250 2650 4050
+Wire Wire Line
+	2450 4950 2800 4950
+Wire Wire Line
+	2450 5150 2650 5150
+Wire Wire Line
+	2650 5150 2650 5250
+Wire Wire Line
+	2450 5250 2650 5250
+Connection ~ 2650 5250
+Wire Wire Line
+	2650 5250 2650 5350
+Wire Wire Line
+	2450 5350 2650 5350
+Connection ~ 2650 5350
+Wire Wire Line
+	2650 5350 2650 5450
+Text GLabel 5300 3950 2    50   Input ~ 0
+A1
+Text GLabel 5300 2600 2    50   Input ~ 0
+A2
+Text GLabel 5300 4050 2    50   Input ~ 0
+A3
+Text GLabel 5300 5700 2    50   Input ~ 0
+A0
+Text GLabel 5300 5400 2    50   Input ~ 0
+A5
+Text GLabel 5300 5500 2    50   Input ~ 0
+A4
+Text GLabel 5300 5300 2    50   Input ~ 0
+A7
+Text GLabel 5300 5200 2    50   Input ~ 0
+A6
+Text GLabel 5300 1650 2    50   Input ~ 0
+CE2_N
+Text GLabel 5300 1450 2    50   Input ~ 0
+CE1_N
+Text GLabel 5300 1550 2    50   Output ~ 0
+D0
+Text GLabel 5300 2800 2    50   Output ~ 0
+D1
+Text GLabel 5300 2900 2    50   Output ~ 0
+D2
+Text GLabel 5300 3000 2    50   Output ~ 0
+D3
+Text GLabel 5300 3100 2    50   Output ~ 0
+OE_N
+$Comp
+L local:AT25DF041B U11
+U 1 1 5E846A98
+P 9050 5050
+F 0 "U11" H 8850 5650 50  0000 L CNN
+F 1 "AT25DF041B" H 8750 5550 50  0000 L CNN
+F 2 "prom:WLCSP-8" H 9050 5050 50  0001 C CNN
+F 3 "" H 9050 5050 50  0001 C CNN
+	1    9050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR030
+U 1 1 5E84E3FB
+P 9450 4550
+F 0 "#PWR030" H 9450 4400 50  0001 C CNN
+F 1 "+3.3V" H 9465 4723 50  0000 C CNN
+F 2 "" H 9450 4550 50  0001 C CNN
+F 3 "" H 9450 4550 50  0001 C CNN
+	1    9450 4550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8800 5150
+NoConn ~ 8800 5250
+$Comp
+L Connector:TestPoint_Alt TP4
+U 1 1 5E85122D
+P 7400 4100
+F 0 "TP4" H 7300 4350 50  0000 L CNN
+F 1 "TestPoint_Alt" H 7458 4127 50  0001 L CNN
+F 2 "prom:test-point-25" H 7600 4100 50  0001 C CNN
+F 3 "~" H 7600 4100 50  0001 C CNN
+	1    7400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5E85311F
+P 8300 3900
+F 0 "R2" H 8368 3946 50  0000 L CNN
+F 1 "10k" H 8350 3850 50  0000 L CNN
+F 2 "prom:0402" V 8340 3890 50  0001 C CNN
+F 3 "~" H 8300 3900 50  0001 C CNN
+	1    8300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5E855891
+P 7950 3900
+F 0 "R1" H 8018 3946 50  0000 L CNN
+F 1 "10k" H 8018 3855 50  0000 L CNN
+F 2 "prom:0402" V 7990 3890 50  0001 C CNN
+F 3 "~" H 7950 3900 50  0001 C CNN
+	1    7950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4500 7500 4500
+Wire Wire Line
+	7150 5000 7600 5000
+Wire Wire Line
+	8300 5000 8300 4750
+Wire Wire Line
+	7150 4900 7500 4900
+Wire Wire Line
+	8500 4900 8500 4850
+Wire Wire Line
+	8500 4850 8800 4850
+Wire Wire Line
+	8800 4750 8300 4750
+Connection ~ 8300 4750
+Wire Wire Line
+	8300 4750 8300 4050
+Wire Wire Line
+	7150 4700 7300 4700
+Wire Wire Line
+	8150 4700 8150 5100
+Wire Wire Line
+	8150 5100 8650 5100
+Wire Wire Line
+	8650 5100 8650 4950
+Wire Wire Line
+	8650 4950 8800 4950
+Wire Wire Line
+	7150 4800 7400 4800
+Wire Wire Line
+	8000 4800 8000 5700
+Wire Wire Line
+	8000 5700 10400 5700
+Wire Wire Line
+	10400 5700 10400 4950
+Wire Wire Line
+	10400 4950 9950 4950
+$Comp
+L power:+3.3V #PWR029
+U 1 1 5E85F98D
+P 8300 3750
+F 0 "#PWR029" H 8300 3600 50  0001 C CNN
+F 1 "+3.3V" H 8315 3923 50  0000 C CNN
+F 2 "" H 8300 3750 50  0001 C CNN
+F 3 "" H 8300 3750 50  0001 C CNN
+	1    8300 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR028
+U 1 1 5E863EF8
+P 7950 3750
+F 0 "#PWR028" H 7950 3600 50  0001 C CNN
+F 1 "+3.3V" H 7965 3923 50  0000 C CNN
+F 2 "" H 7950 3750 50  0001 C CNN
+F 3 "" H 7950 3750 50  0001 C CNN
+	1    7950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP6
+U 1 1 5E868480
+P 7500 4100
+F 0 "TP6" H 7500 4350 50  0000 L CNN
+F 1 "TestPoint_Alt" H 7558 4127 50  0001 L CNN
+F 2 "prom:test-point-25" H 7700 4100 50  0001 C CNN
+F 3 "~" H 7700 4100 50  0001 C CNN
+	1    7500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP3
+U 1 1 5E86CD9D
+P 7300 5300
+F 0 "TP3" H 7350 5550 50  0000 R CNN
+F 1 "TestPoint_Alt" H 7358 5327 50  0001 L CNN
+F 2 "prom:test-point-25" H 7500 5300 50  0001 C CNN
+F 3 "~" H 7500 5300 50  0001 C CNN
+	1    7300 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP5
+U 1 1 5E86D314
+P 7400 5300
+F 0 "TP5" H 7450 5650 50  0000 R CNN
+F 1 "TestPoint_Alt" H 7458 5327 50  0001 L CNN
+F 2 "prom:test-point-25" H 7600 5300 50  0001 C CNN
+F 3 "~" H 7600 5300 50  0001 C CNN
+	1    7400 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP7
+U 1 1 5E86D600
+P 7500 5300
+F 0 "TP7" H 7550 5550 50  0000 R CNN
+F 1 "TestPoint_Alt" H 7558 5327 50  0001 L CNN
+F 2 "prom:test-point-25" H 7700 5300 50  0001 C CNN
+F 3 "~" H 7700 5300 50  0001 C CNN
+	1    7500 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint_Alt TP8
+U 1 1 5E86D938
+P 7600 5300
+F 0 "TP8" H 7650 5650 50  0000 R CNN
+F 1 "TestPoint_Alt" H 7658 5327 50  0001 L CNN
+F 2 "prom:test-point-25" H 7800 5300 50  0001 C CNN
+F 3 "~" H 7800 5300 50  0001 C CNN
+	1    7600 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 4700 7300 5300
+Connection ~ 7300 4700
+Wire Wire Line
+	7300 4700 8150 4700
+Wire Wire Line
+	7400 4800 7400 5300
+Connection ~ 7400 4800
+Wire Wire Line
+	7400 4800 8000 4800
+Wire Wire Line
+	7500 4900 7500 5300
+Connection ~ 7500 4900
+Wire Wire Line
+	7500 4900 8500 4900
+Wire Wire Line
+	7600 5000 7600 5300
+Connection ~ 7600 5000
+Wire Wire Line
+	7600 5000 8300 5000
+Wire Wire Line
+	7950 4050 7950 4500
+Wire Wire Line
+	7150 4400 7400 4400
+Wire Wire Line
+	7400 4400 7400 4100
+Wire Wire Line
+	7500 4100 7500 4500
+Connection ~ 7500 4500
+Wire Wire Line
+	7500 4500 7950 4500
+NoConn ~ 4950 1750
+NoConn ~ 4950 2500
+NoConn ~ 4950 2700
+Wire Wire Line
+	4950 1450 5300 1450
+Wire Wire Line
+	4950 1550 5300 1550
+Wire Wire Line
+	4950 2600 5300 2600
+Wire Wire Line
+	4950 2800 5300 2800
+Wire Wire Line
+	4950 2900 5300 2900
+Wire Wire Line
+	4950 3000 5300 3000
+Wire Wire Line
+	4950 3100 5300 3100
+Wire Wire Line
+	4950 1650 5300 1650
+Wire Wire Line
+	5000 3950 5300 3950
+Wire Wire Line
+	5000 4050 5300 4050
+Wire Wire Line
+	4950 5200 5300 5200
+Wire Wire Line
+	4950 5300 5300 5300
+Wire Wire Line
+	4950 5400 5300 5400
+Wire Wire Line
+	4950 5500 5300 5500
+Wire Wire Line
+	4950 5700 5300 5700
+NoConn ~ 5000 4150
+NoConn ~ 5000 4250
+NoConn ~ 4950 5600
+$EndSCHEMATC

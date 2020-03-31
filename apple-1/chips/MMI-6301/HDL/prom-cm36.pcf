@@ -12,4 +12,4 @@ set_io data[2] B5
 set_io data[3] B6
 set_io ce1_n   A3
 set_io ce2_n   A2
-set_io oe      C6
+set_io oe_n    C6

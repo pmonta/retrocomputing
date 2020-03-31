@@ -1,0 +1,6 @@
+*-spi-flash.bin
+*-yosys.log
+*-nextpnr.log
+*.json
+*.asc
+prom-*.txt

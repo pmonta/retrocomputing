@@ -16,12 +16,12 @@ module main(
   output [3:0] data,
   input ce1_n,
   input ce2_n,
-  output oe             // to external 5V-tolerant three-state buffer
+  output oe_n           // to external 5V-tolerant three-state buffer
 );
 
   rom _rom(addr, data);
 
-  assign oe = (~ce1_n) & (~ce2_n);
+  assign oe_n = ~((~ce1_n) & (~ce2_n));
 
 endmodule
 
