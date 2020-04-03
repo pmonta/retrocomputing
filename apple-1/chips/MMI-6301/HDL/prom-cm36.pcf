@@ -1,7 +1,7 @@
-set_io addr[0] E1
+set_io addr[0] E2
 set_io addr[1] F2
 set_io addr[2] D6
-set_io addr[3] E2
+set_io addr[3] E1
 set_io addr[4] C1
 set_io addr[5] C2
 set_io addr[6] B1

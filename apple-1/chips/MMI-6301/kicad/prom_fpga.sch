@@ -182,9 +182,9 @@ A1
 Text GLabel 5300 2600 2    50   Input ~ 0
 A2
 Text GLabel 5300 4050 2    50   Input ~ 0
-A3
-Text GLabel 5300 5700 2    50   Input ~ 0
 A0
+Text GLabel 5300 5700 2    50   Input ~ 0
+A3
 Text GLabel 5300 5400 2    50   Input ~ 0
 A5
 Text GLabel 5300 5500 2    50   Input ~ 0
@@ -231,17 +231,6 @@ F 3 "" H 9450 4550 50  0001 C CNN
 $EndComp
 NoConn ~ 8800 5150
 NoConn ~ 8800 5250
-$Comp
-L Connector:TestPoint_Alt TP4
-U 1 1 5E85122D
-P 7400 4100
-F 0 "TP4" H 7300 4350 50  0000 L CNN
-F 1 "TestPoint_Alt" H 7458 4127 50  0001 L CNN
-F 2 "prom:test-point-25" H 7600 4100 50  0001 C CNN
-F 3 "~" H 7600 4100 50  0001 C CNN
-	1    7400 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_US R2
 U 1 1 5E85311F
@@ -324,10 +313,12 @@ F 3 "" H 7950 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint_Alt TP6
+L prom-rescue:TestPoint_Alt-Connector TP6
 U 1 1 5E868480
 P 7500 4100
-F 0 "TP6" H 7500 4350 50  0000 L CNN
+AR Path="/5E868480" Ref="TP6"  Part="1" 
+AR Path="/5E85CF8D/5E868480" Ref="TP5"  Part="1" 
+F 0 "TP5" H 7500 4350 50  0000 L CNN
 F 1 "TestPoint_Alt" H 7558 4127 50  0001 L CNN
 F 2 "prom:test-point-25" H 7700 4100 50  0001 C CNN
 F 3 "~" H 7700 4100 50  0001 C CNN
@@ -335,9 +326,11 @@ F 3 "~" H 7700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint_Alt TP3
+L prom-rescue:TestPoint_Alt-Connector TP3
 U 1 1 5E86CD9D
 P 7300 5300
+AR Path="/5E86CD9D" Ref="TP3"  Part="1" 
+AR Path="/5E85CF8D/5E86CD9D" Ref="TP3"  Part="1" 
 F 0 "TP3" H 7350 5550 50  0000 R CNN
 F 1 "TestPoint_Alt" H 7358 5327 50  0001 L CNN
 F 2 "prom:test-point-25" H 7500 5300 50  0001 C CNN
@@ -346,10 +339,12 @@ F 3 "~" H 7500 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint_Alt TP5
+L prom-rescue:TestPoint_Alt-Connector TP5
 U 1 1 5E86D314
 P 7400 5300
-F 0 "TP5" H 7450 5650 50  0000 R CNN
+AR Path="/5E86D314" Ref="TP5"  Part="1" 
+AR Path="/5E85CF8D/5E86D314" Ref="TP4"  Part="1" 
+F 0 "TP4" H 7450 5650 50  0000 R CNN
 F 1 "TestPoint_Alt" H 7458 5327 50  0001 L CNN
 F 2 "prom:test-point-25" H 7600 5300 50  0001 C CNN
 F 3 "~" H 7600 5300 50  0001 C CNN
@@ -357,10 +352,12 @@ F 3 "~" H 7600 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint_Alt TP7
+L prom-rescue:TestPoint_Alt-Connector TP7
 U 1 1 5E86D600
 P 7500 5300
-F 0 "TP7" H 7550 5550 50  0000 R CNN
+AR Path="/5E86D600" Ref="TP7"  Part="1" 
+AR Path="/5E85CF8D/5E86D600" Ref="TP6"  Part="1" 
+F 0 "TP6" H 7550 5550 50  0000 R CNN
 F 1 "TestPoint_Alt" H 7558 5327 50  0001 L CNN
 F 2 "prom:test-point-25" H 7700 5300 50  0001 C CNN
 F 3 "~" H 7700 5300 50  0001 C CNN
@@ -368,10 +365,12 @@ F 3 "~" H 7700 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint_Alt TP8
+L prom-rescue:TestPoint_Alt-Connector TP8
 U 1 1 5E86D938
 P 7600 5300
-F 0 "TP8" H 7650 5650 50  0000 R CNN
+AR Path="/5E86D938" Ref="TP8"  Part="1" 
+AR Path="/5E85CF8D/5E86D938" Ref="TP7"  Part="1" 
+F 0 "TP7" H 7650 5650 50  0000 R CNN
 F 1 "TestPoint_Alt" H 7658 5327 50  0001 L CNN
 F 2 "prom:test-point-25" H 7800 5300 50  0001 C CNN
 F 3 "~" H 7800 5300 50  0001 C CNN
@@ -400,10 +399,6 @@ Wire Wire Line
 	7600 5000 8300 5000
 Wire Wire Line
 	7950 4050 7950 4500
-Wire Wire Line
-	7150 4400 7400 4400
-Wire Wire Line
-	7400 4400 7400 4100
 Wire Wire Line
 	7500 4100 7500 4500
 Connection ~ 7500 4500
@@ -445,4 +440,5 @@ Wire Wire Line
 NoConn ~ 5000 4150
 NoConn ~ 5000 4250
 NoConn ~ 4950 5600
+NoConn ~ 7150 4400
 $EndSCHEMATC

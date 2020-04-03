@@ -1,5 +1,5 @@
-(module flip-pins-DIP16 (layer F.Cu) (tedit 5E664A55)
-  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+(module flip-pins-DIP16 (layer F.Cu) (tedit 5E86585D)
+  (fp_text reference REF** (at -0.9 1.35) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value flip-pins-DIP16 (at 0 -0.5) (layer F.Fab)
