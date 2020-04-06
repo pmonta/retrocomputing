@@ -94,7 +94,7 @@ $EndComp
 Text Notes 7650 6950 0    150  ~ 0
 FPGA and SPI flash
 $Comp
-L power:GND #PWR026
+L local:GND #PWR026
 U 1 1 5E915F0B
 P 2650 5450
 F 0 "#PWR026" H 2650 5200 50  0001 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 2650 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR031
+L local:GND #PWR031
 U 1 1 5E91627E
 P 9450 5450
 F 0 "#PWR031" H 9450 5200 50  0001 C CNN
@@ -116,7 +116,7 @@ F 3 "" H 9450 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR025
+L local:+3.3V #PWR025
 U 1 1 5E91732E
 P 2650 4050
 F 0 "#PWR025" H 2650 3900 50  0001 C CNN
@@ -127,7 +127,7 @@ F 3 "" H 2650 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR027
+L local:+1V2 #PWR027
 U 1 1 5E917DDE
 P 2800 4950
 F 0 "#PWR027" H 2800 4800 50  0001 C CNN
@@ -219,7 +219,7 @@ F 3 "" H 9050 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR030
+L local:+3.3V #PWR030
 U 1 1 5E84E3FB
 P 9450 4550
 F 0 "#PWR030" H 9450 4400 50  0001 C CNN
@@ -291,7 +291,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 4950 9950 4950
 $Comp
-L power:+3.3V #PWR029
+L local:+3.3V #PWR029
 U 1 1 5E85F98D
 P 8300 3750
 F 0 "#PWR029" H 8300 3600 50  0001 C CNN
@@ -302,7 +302,7 @@ F 3 "" H 8300 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR028
+L local:+3.3V #PWR028
 U 1 1 5E863EF8
 P 7950 3750
 F 0 "#PWR028" H 7950 3600 50  0001 C CNN
@@ -313,7 +313,7 @@ F 3 "" H 7950 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prom-rescue:TestPoint_Alt-Connector TP6
+L local:TestPoint_Alt TP6
 U 1 1 5E868480
 P 7500 4100
 AR Path="/5E868480" Ref="TP6"  Part="1" 
@@ -326,7 +326,7 @@ F 3 "~" H 7700 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prom-rescue:TestPoint_Alt-Connector TP3
+L local:TestPoint_Alt TP3
 U 1 1 5E86CD9D
 P 7300 5300
 AR Path="/5E86CD9D" Ref="TP3"  Part="1" 
@@ -339,7 +339,7 @@ F 3 "~" H 7500 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L prom-rescue:TestPoint_Alt-Connector TP5
+L local:TestPoint_Alt TP5
 U 1 1 5E86D314
 P 7400 5300
 AR Path="/5E86D314" Ref="TP5"  Part="1" 
@@ -352,7 +352,7 @@ F 3 "~" H 7600 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L prom-rescue:TestPoint_Alt-Connector TP7
+L local:TestPoint_Alt TP7
 U 1 1 5E86D600
 P 7500 5300
 AR Path="/5E86D600" Ref="TP7"  Part="1" 
@@ -365,7 +365,7 @@ F 3 "~" H 7700 5300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L prom-rescue:TestPoint_Alt-Connector TP8
+L local:TestPoint_Alt TP8
 U 1 1 5E86D938
 P 7600 5300
 AR Path="/5E86D938" Ref="TP8"  Part="1" 

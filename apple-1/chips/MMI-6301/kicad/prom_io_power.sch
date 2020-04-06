@@ -101,7 +101,7 @@ F 3 "" H 2200 6700 100 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L local:GND #PWR03
 U 1 1 5E809D88
 P 1950 3250
 F 0 "#PWR03" H 1950 3000 50  0001 C CNN
@@ -112,7 +112,7 @@ F 3 "" H 1950 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR04
+L local:+5V #PWR04
 U 1 1 5E80A02F
 P 2850 2350
 F 0 "#PWR04" H 2850 2200 50  0001 C CNN
@@ -127,7 +127,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 1550 4600 1550
 $Comp
-L power:GND #PWR012
+L local:GND #PWR012
 U 1 1 5E80C217
 P 5050 1750
 F 0 "#PWR012" H 5050 1500 50  0001 C CNN
@@ -138,7 +138,7 @@ F 3 "" H 5050 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR011
+L local:+3.3V #PWR011
 U 1 1 5E80C8C8
 P 5050 1250
 F 0 "#PWR011" H 5050 1100 50  0001 C CNN
@@ -149,7 +149,7 @@ F 3 "" H 5050 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L local:GND #PWR014
 U 1 1 5E8116D1
 P 5050 2800
 F 0 "#PWR014" H 5050 2550 50  0001 C CNN
@@ -160,7 +160,7 @@ F 3 "" H 5050 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L local:GND #PWR016
 U 1 1 5E811918
 P 5050 3850
 F 0 "#PWR016" H 5050 3600 50  0001 C CNN
@@ -171,7 +171,7 @@ F 3 "" H 5050 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L local:GND #PWR018
 U 1 1 5E811B65
 P 5050 4900
 F 0 "#PWR018" H 5050 4650 50  0001 C CNN
@@ -182,7 +182,7 @@ F 3 "" H 5050 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR013
+L local:+3.3V #PWR013
 U 1 1 5E811DDC
 P 5050 2300
 F 0 "#PWR013" H 5050 2150 50  0001 C CNN
@@ -193,7 +193,7 @@ F 3 "" H 5050 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR015
+L local:+3.3V #PWR015
 U 1 1 5E81218A
 P 5050 3350
 F 0 "#PWR015" H 5050 3200 50  0001 C CNN
@@ -204,7 +204,7 @@ F 3 "" H 5050 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR017
+L local:+3.3V #PWR017
 U 1 1 5E8124E5
 P 5050 4400
 F 0 "#PWR017" H 5050 4250 50  0001 C CNN
@@ -215,7 +215,7 @@ F 3 "" H 5050 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR019
+L local:+3.3V #PWR019
 U 1 1 5E812964
 P 5050 5450
 F 0 "#PWR019" H 5050 5300 50  0001 C CNN
@@ -226,7 +226,7 @@ F 3 "" H 5050 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR020
+L local:GND #PWR020
 U 1 1 5E812D10
 P 5050 5950
 F 0 "#PWR020" H 5050 5700 50  0001 C CNN
@@ -372,7 +372,7 @@ DIP_A1
 Text Label 1650 3050 0    50   ~ 0
 DIP_A2
 $Comp
-L power:+1V2 #PWR010
+L local:+1V2 #PWR010
 U 1 1 5E84CCB2
 P 3450 6150
 F 0 "#PWR010" H 3450 6000 50  0001 C CNN
@@ -383,7 +383,7 @@ F 3 "" H 3450 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR09
+L local:+3.3V #PWR09
 U 1 1 5E84D3A3
 P 3700 4900
 F 0 "#PWR09" H 3700 4750 50  0001 C CNN
@@ -394,7 +394,7 @@ F 3 "" H 3700 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L local:GND #PWR06
 U 1 1 5E84D864
 P 2850 6550
 F 0 "#PWR06" H 2850 6300 50  0001 C CNN
@@ -405,7 +405,7 @@ F 3 "" H 2850 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L local:GND #PWR05
 U 1 1 5E84DB05
 P 2850 5300
 F 0 "#PWR05" H 2850 5050 50  0001 C CNN
@@ -449,7 +449,7 @@ Connection ~ 2850 6550
 Wire Wire Line
 	2650 6150 2850 6150
 $Comp
-L power:+5V #PWR01
+L local:+5V #PWR01
 U 1 1 5E85C184
 P 1100 4900
 F 0 "#PWR01" H 1100 4750 50  0001 C CNN
@@ -521,7 +521,7 @@ F 3 "~" H 3150 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L local:GND #PWR07
 U 1 1 5E8A5808
 P 3150 5300
 F 0 "#PWR07" H 3150 5050 50  0001 C CNN
@@ -532,7 +532,7 @@ F 3 "" H 3150 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L local:GND #PWR08
 U 1 1 5E8A5A60
 P 3150 6550
 F 0 "#PWR08" H 3150 6300 50  0001 C CNN
@@ -543,7 +543,7 @@ F 3 "" H 3150 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L local:GND #PWR02
 U 1 1 5E8A6084
 P 1450 5250
 F 0 "#PWR02" H 1450 5000 50  0001 C CNN
@@ -658,7 +658,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 3850 8150 3850
 $Comp
-L power:GND #PWR022
+L local:GND #PWR022
 U 1 1 5E8F110E
 P 8150 2550
 F 0 "#PWR022" H 8150 2300 50  0001 C CNN
@@ -669,7 +669,7 @@ F 3 "" H 8150 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR024
+L local:GND #PWR024
 U 1 1 5E8F1499
 P 8150 4050
 F 0 "#PWR024" H 8150 3800 50  0001 C CNN
@@ -680,7 +680,7 @@ F 3 "" H 8150 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR021
+L local:+3.3V #PWR021
 U 1 1 5E8F17D2
 P 8150 1750
 F 0 "#PWR021" H 8150 1600 50  0001 C CNN
@@ -691,7 +691,7 @@ F 3 "" H 8150 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR023
+L local:+3.3V #PWR023
 U 1 1 5E8F1BEC
 P 8150 3250
 F 0 "#PWR023" H 8150 3100 50  0001 C CNN
@@ -702,7 +702,7 @@ F 3 "" H 8150 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prom-rescue:TestPoint_Alt-Connector TP?
+L local:TestPoint_Alt TP?
 U 1 1 5E8ADFB4
 P 2850 4900
 AR Path="/5E85CF8D/5E8ADFB4" Ref="TP?"  Part="1" 
@@ -716,7 +716,7 @@ F 3 "~" H 3050 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L prom-rescue:TestPoint_Alt-Connector TP?
+L local:TestPoint_Alt TP?
 U 1 1 5E8B033B
 P 2850 6150
 AR Path="/5E85CF8D/5E8B033B" Ref="TP?"  Part="1" 
