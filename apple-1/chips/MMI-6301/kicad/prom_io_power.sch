@@ -710,7 +710,7 @@ AR Path="/5E85C2D7/5E8ADFB4" Ref="TP1"  Part="1"
 AR Path="/5E8ADFB4" Ref="TP1"  Part="1" 
 F 0 "TP1" H 2750 5150 50  0000 L CNN
 F 1 "TestPoint_Alt" H 2908 4927 50  0001 L CNN
-F 2 "prom:test-point-25" H 3050 4900 50  0001 C CNN
+F 2 "prom:test-point" H 3050 4900 50  0001 C CNN
 F 3 "~" H 3050 4900 50  0001 C CNN
 	1    2850 4900
 	1    0    0    -1  
@@ -724,7 +724,7 @@ AR Path="/5E85C2D7/5E8B033B" Ref="TP2"  Part="1"
 AR Path="/5E8B033B" Ref="TP2"  Part="1" 
 F 0 "TP2" H 2750 6400 50  0000 L CNN
 F 1 "TestPoint_Alt" H 2908 6177 50  0001 L CNN
-F 2 "prom:test-point-25" H 3050 6150 50  0001 C CNN
+F 2 "prom:test-point" H 3050 6150 50  0001 C CNN
 F 3 "~" H 3050 6150 50  0001 C CNN
 	1    2850 6150
 	1    0    0    -1  

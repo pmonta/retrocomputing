@@ -320,7 +320,7 @@ AR Path="/5E868480" Ref="TP6"  Part="1"
 AR Path="/5E85CF8D/5E868480" Ref="TP5"  Part="1" 
 F 0 "TP5" H 6850 4250 50  0000 L CNN
 F 1 "TestPoint_Alt" H 6908 4027 50  0001 L CNN
-F 2 "prom:test-point-25" H 7050 4000 50  0001 C CNN
+F 2 "prom:test-point" H 7050 4000 50  0001 C CNN
 F 3 "~" H 7050 4000 50  0001 C CNN
 	1    6850 4000
 	1    0    0    -1  
@@ -333,7 +333,7 @@ AR Path="/5E86CD9D" Ref="TP3"  Part="1"
 AR Path="/5E85CF8D/5E86CD9D" Ref="TP3"  Part="1" 
 F 0 "TP3" H 6700 5450 50  0000 R CNN
 F 1 "TestPoint_Alt" H 6708 5227 50  0001 L CNN
-F 2 "prom:test-point-25" H 6850 5200 50  0001 C CNN
+F 2 "prom:test-point" H 6850 5200 50  0001 C CNN
 F 3 "~" H 6850 5200 50  0001 C CNN
 	1    6650 5200
 	-1   0    0    1   
@@ -346,7 +346,7 @@ AR Path="/5E86D314" Ref="TP5"  Part="1"
 AR Path="/5E85CF8D/5E86D314" Ref="TP4"  Part="1" 
 F 0 "TP4" H 6800 5550 50  0000 R CNN
 F 1 "TestPoint_Alt" H 6808 5227 50  0001 L CNN
-F 2 "prom:test-point-25" H 6950 5200 50  0001 C CNN
+F 2 "prom:test-point" H 6950 5200 50  0001 C CNN
 F 3 "~" H 6950 5200 50  0001 C CNN
 	1    6750 5200
 	-1   0    0    1   
@@ -359,7 +359,7 @@ AR Path="/5E86D600" Ref="TP7"  Part="1"
 AR Path="/5E85CF8D/5E86D600" Ref="TP6"  Part="1" 
 F 0 "TP6" H 6900 5450 50  0000 R CNN
 F 1 "TestPoint_Alt" H 6908 5227 50  0001 L CNN
-F 2 "prom:test-point-25" H 7050 5200 50  0001 C CNN
+F 2 "prom:test-point" H 7050 5200 50  0001 C CNN
 F 3 "~" H 7050 5200 50  0001 C CNN
 	1    6850 5200
 	-1   0    0    1   
@@ -372,7 +372,7 @@ AR Path="/5E86D938" Ref="TP8"  Part="1"
 AR Path="/5E85CF8D/5E86D938" Ref="TP7"  Part="1" 
 F 0 "TP7" H 7000 5550 50  0000 R CNN
 F 1 "TestPoint_Alt" H 7008 5227 50  0001 L CNN
-F 2 "prom:test-point-25" H 7150 5200 50  0001 C CNN
+F 2 "prom:test-point" H 7150 5200 50  0001 C CNN
 F 3 "~" H 7150 5200 50  0001 C CNN
 	1    6950 5200
 	-1   0    0    1   

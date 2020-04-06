@@ -1,9 +1,0 @@
-(module test-point-25 (layer F.Cu) (tedit 5E858F3B)
-  (fp_text reference REF** (at -0.9 3.3) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value test-point-25 (at -0.55 1.55) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 smd circle (at 0 0) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
-)
