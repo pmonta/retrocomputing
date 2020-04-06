@@ -488,7 +488,7 @@ DIP_D2
 Text Label 2800 3150 0    50   ~ 0
 DIP_D3
 $Comp
-L Device:C_Small C1
+L local:C_Small C1
 U 1 1 5E8A0689
 P 1450 5100
 F 0 "C1" H 1542 5146 50  0000 L CNN
@@ -499,7 +499,7 @@ F 3 "~" H 1450 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C2
+L local:C_Small C2
 U 1 1 5E8A0FD1
 P 3150 5100
 F 0 "C2" H 3242 5146 50  0000 L CNN
@@ -510,7 +510,7 @@ F 3 "~" H 3150 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C3
+L local:C_Small C3
 U 1 1 5E8A194B
 P 3150 6350
 F 0 "C3" H 3242 6396 50  0000 L CNN

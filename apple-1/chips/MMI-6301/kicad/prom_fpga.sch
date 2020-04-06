@@ -232,7 +232,7 @@ $EndComp
 NoConn ~ 8150 5050
 NoConn ~ 8150 5150
 $Comp
-L Device:R_US R2
+L local:R_US R2
 U 1 1 5E85311F
 P 7650 3800
 F 0 "R2" H 7718 3846 50  0000 L CNN
@@ -243,7 +243,7 @@ F 3 "~" H 7650 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R1
+L local:R_US R1
 U 1 1 5E855891
 P 7300 3800
 F 0 "R1" H 7368 3846 50  0000 L CNN

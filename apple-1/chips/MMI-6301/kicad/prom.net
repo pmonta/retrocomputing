@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/pmonta/src/github/retrocomputing/apple-1/chips/MMI-6301/kicad/prom.sch)
-    (date "Sun 05 Apr 2020 08:07:24 PM PDT")
+    (date "Mon 06 Apr 2020 12:21:48 AM PDT")
     (tool "Eeschema 5.1.5-1.fc31")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -89,21 +89,21 @@
       (value "1 uF")
       (footprint prom:0402)
       (datasheet ~)
-      (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
+      (libsource (lib local) (part C_Small) (description ""))
       (sheetpath (names /Sheet5E85C2D6/) (tstamps /5E85C2D7/))
       (tstamp 5E8A0689))
     (comp (ref C2)
       (value "1 uF")
       (footprint prom:0402)
       (datasheet ~)
-      (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
+      (libsource (lib local) (part C_Small) (description ""))
       (sheetpath (names /Sheet5E85C2D6/) (tstamps /5E85C2D7/))
       (tstamp 5E8A0FD1))
     (comp (ref C3)
       (value "1 uF")
       (footprint prom:0402)
       (datasheet ~)
-      (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
+      (libsource (lib local) (part C_Small) (description ""))
       (sheetpath (names /Sheet5E85C2D6/) (tstamps /5E85C2D7/))
       (tstamp 5E8A194B))
     (comp (ref U8)
@@ -148,14 +148,14 @@
       (value 10k)
       (footprint prom:0402)
       (datasheet ~)
-      (libsource (lib Device) (part R_US) (description "Resistor, US symbol"))
+      (libsource (lib local) (part R_US) (description ""))
       (sheetpath (names /Sheet5E85CF8C/) (tstamps /5E85CF8D/))
       (tstamp 5E85311F))
     (comp (ref R1)
       (value 10k)
       (footprint prom:0402)
       (datasheet ~)
-      (libsource (lib Device) (part R_US) (description "Resistor, US symbol"))
+      (libsource (lib local) (part R_US) (description ""))
       (sheetpath (names /Sheet5E85CF8C/) (tstamps /5E85CF8D/))
       (tstamp 5E855891))
     (comp (ref TP5)
@@ -194,28 +194,6 @@
       (sheetpath (names /Sheet5E85CF8C/) (tstamps /5E85CF8D/))
       (tstamp 5E86D938)))
   (libparts
-    (libpart (lib Device) (part C_Small)
-      (description "Unpolarized capacitor, small symbol")
-      (docs ~)
-      (footprints
-        (fp C_*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C_Small))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib Device) (part R_US)
-      (description "Resistor, US symbol")
-      (docs ~)
-      (footprints
-        (fp R_*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R_US))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib local) (part 74LVC2G125)
       (fields
         (field (name Reference) U)
@@ -253,6 +231,15 @@
         (pin (num D2) (name SI) (type input))
         (pin (num E1) (name SCK) (type input))
         (pin (num E3) (name WP_N) (type input))))
+    (libpart (lib local) (part C_Small)
+      (footprints
+        (fp C_*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C_Small))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib local) (part DIP16_pins)
       (fields
         (field (name Reference) J)
@@ -315,6 +302,15 @@
         (pin (num F4) (name CRESET_B) (type input))
         (pin (num F5) (name IOB_45_SDI) (type input))
         (pin (num F6) (name VCC_SPI) (type power_in))))
+    (libpart (lib local) (part R_US)
+      (footprints
+        (fp R_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R_US))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib local) (part TLV743P)
       (fields
         (field (name Reference) U)
@@ -335,8 +331,6 @@
       (pins
         (pin (num 1) (name 1) (type passive)))))
   (libraries
-    (library (logical Device)
-      (uri /usr/share/kicad/library/Device.lib))
     (library (logical local)
       (uri /home/pmonta/src/github/retrocomputing/apple-1/chips/MMI-6301/kicad/local.lib)))
   (nets
