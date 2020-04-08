@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74LS02 U1
+L cassette:74LS02 U1
 U 1 1 5E466DDF
 P 2800 1400
 F 0 "U1" H 2800 1725 50  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2800 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS02 U1
+L cassette:74LS02 U1
 U 2 1 5E4686AD
 P 7700 2950
 F 0 "U1" H 7700 3275 50  0000 C CNN
@@ -36,7 +36,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 7700 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS02 U1
+L cassette:74LS02 U1
 U 3 1 5E46965D
 P 2800 2000
 F 0 "U1" H 2800 2325 50  0000 C CNN
@@ -47,7 +47,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2800 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS02 U1
+L cassette:74LS02 U1
 U 4 1 5E46A99C
 P 5150 1700
 F 0 "U1" H 5150 2025 50  0000 C CNN
@@ -58,7 +58,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 5150 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS10 U2
+L cassette:74LS10 U2
 U 1 1 5E46BCD7
 P 5900 2950
 F 0 "U2" H 5900 3275 50  0000 C CNN
@@ -69,7 +69,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 5900 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS10 U2
+L cassette:74LS10 U2
 U 2 1 5E46CBDD
 P 4000 1700
 F 0 "U2" H 4000 2025 50  0000 C CNN
@@ -80,7 +80,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 4000 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS10 U2
+L cassette:74LS10 U2
 U 3 1 5E46D9CF
 P 6800 2950
 F 0 "U2" H 6800 3275 50  0000 C CNN
@@ -91,7 +91,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 6800 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS10 U2
+L cassette:74LS10 U2
 U 4 1 5E46E908
 P 9000 1450
 F 0 "U2" H 9230 1496 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 9000 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS74 U4
+L cassette:74LS74 U4
 U 1 1 5E47121D
 P 6300 1700
 F 0 "U4" H 6300 2181 50  0000 C CNN
@@ -113,7 +113,7 @@ F 3 "74xx/74hc_hct74.pdf" H 6300 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS74 U4
+L cassette:74LS74 U4
 U 3 1 5E4721A2
 P 9800 1450
 F 0 "U4" H 10030 1496 50  0000 L CNN
@@ -124,7 +124,7 @@ F 3 "74xx/74hc_hct74.pdf" H 9800 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Comparator:LM311 U3
+L cassette:LM311-Comparator U3
 U 1 1 5E472DF2
 P 4500 3850
 F 0 "U3" H 4600 3700 50  0000 L CNN
@@ -137,7 +137,7 @@ $EndComp
 Text Notes 7150 7150 0    118  ~ 0
 Apple-1 Cassette Interface
 $Comp
-L Device:Q_NPN_EBC Q1
+L cassette:Q_NPN_EBC Q1
 U 1 1 5E47FC4F
 P 4500 6150
 F 0 "Q1" H 4691 6196 50  0000 L CNN
@@ -148,7 +148,7 @@ F 3 "~" H 4500 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NPN_EBC Q2
+L cassette:Q_NPN_EBC Q2
 U 1 1 5E481B80
 P 4850 6500
 F 0 "Q2" H 5041 6546 50  0000 L CNN
@@ -159,7 +159,7 @@ F 3 "~" H 4850 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L cassette:GND #PWR018
 U 1 1 5E4832C2
 P 9800 3350
 F 0 "#PWR018" H 9800 3100 50  0001 C CNN
@@ -170,7 +170,7 @@ F 3 "" H 9800 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C1
+L cassette:C_Small C1
 U 1 1 5E485171
 P 3200 3850
 F 0 "C1" V 2900 3750 50  0000 L CNN
@@ -181,7 +181,7 @@ F 3 "~" H 3200 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:-12V #PWR06
+L cassette:-12V #PWR06
 U 1 1 5E485E9E
 P 4400 4500
 F 0 "#PWR06" H 4400 4600 50  0001 C CNN
@@ -192,7 +192,7 @@ F 3 "" H 4400 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR02
+L cassette:+5V #PWR02
 U 1 1 5E486A44
 P 4950 5250
 F 0 "#PWR02" H 4950 5100 50  0001 C CNN
@@ -203,7 +203,7 @@ F 3 "" H 4950 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D1
+L cassette:LED_ALT D1
 U 1 1 5E48949F
 P 4950 5700
 F 0 "D1" V 4950 5500 50  0000 C CNN
@@ -240,7 +240,7 @@ Text Notes 7650 6250 0    50   ~ 0
 Text Notes 9600 6250 0    50   ~ 0
 256x4 PROM
 $Comp
-L power:GND #PWR012
+L cassette:GND #PWR012
 U 1 1 5E4B4281
 P 9000 1950
 F 0 "#PWR012" H 9000 1700 50  0001 C CNN
@@ -251,7 +251,7 @@ F 3 "" H 9000 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L cassette:GND #PWR016
 U 1 1 5E4B4EBC
 P 9800 1850
 F 0 "#PWR016" H 9800 1600 50  0001 C CNN
@@ -262,7 +262,7 @@ F 3 "" H 9800 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L cassette:GND #PWR07
 U 1 1 5E4B73EE
 P 7100 2200
 F 0 "#PWR07" H 7100 1950 50  0001 C CNN
@@ -273,7 +273,7 @@ F 3 "" H 7100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L cassette:GND #PWR08
 U 1 1 5E4B801F
 P 7650 2200
 F 0 "#PWR08" H 7650 1950 50  0001 C CNN
@@ -284,7 +284,7 @@ F 3 "" H 7650 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L cassette:GND #PWR014
 U 1 1 5E4B8684
 P 9350 6000
 F 0 "#PWR014" H 9350 5750 50  0001 C CNN
@@ -295,7 +295,7 @@ F 3 "" H 9350 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L cassette:GND #PWR010
 U 1 1 5E4B8CEC
 P 7500 6000
 F 0 "#PWR010" H 7500 5750 50  0001 C CNN
@@ -367,7 +367,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6700 2450 6700
 $Comp
-L 74xx:74LS02 U1
+L cassette:74LS02 U1
 U 5 1 5E4701AC
 P 9800 2850
 F 0 "U1" H 10030 2896 50  0000 L CNN
@@ -378,7 +378,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 9800 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R2
+L cassette:R_US R2
 U 1 1 5E575731
 P 4950 5400
 F 0 "R2" H 5018 5446 50  0000 L CNN
@@ -400,7 +400,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 6500 4650 6500
 $Comp
-L power:GND #PWR03
+L cassette:GND #PWR03
 U 1 1 5E4B6154
 P 4950 6700
 F 0 "#PWR03" H 4950 6450 50  0001 C CNN
@@ -433,7 +433,7 @@ F 3 "" H 7650 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R10
+L cassette:R_US R10
 U 1 1 5E626D5F
 P 7100 2050
 F 0 "R10" H 7168 2096 50  0000 L CNN
@@ -444,7 +444,7 @@ F 3 "~" H 7100 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R9
+L cassette:R_US R9
 U 1 1 5E627816
 P 7100 1750
 F 0 "R9" H 7168 1796 50  0000 L CNN
@@ -460,7 +460,7 @@ Connection ~ 7100 1900
 Wire Wire Line
 	6600 1600 7100 1600
 $Comp
-L Device:R_US R1
+L cassette:R_US R1
 U 1 1 5E66C320
 P 4150 6150
 F 0 "R1" V 4050 6100 50  0000 L CNN
@@ -471,7 +471,7 @@ F 3 "~" H 4150 6150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R3
+L cassette:R_US R3
 U 1 1 5E676CC2
 P 3450 3450
 F 0 "R3" H 3518 3496 50  0000 L CNN
@@ -482,7 +482,7 @@ F 3 "~" H 3450 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R4
+L cassette:R_US R4
 U 1 1 5E677AC2
 P 3450 4300
 F 0 "R4" H 3518 4346 50  0000 L CNN
@@ -493,7 +493,7 @@ F 3 "~" H 3450 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R5
+L cassette:R_US R5
 U 1 1 5E6782D1
 P 3800 3450
 F 0 "R5" H 3868 3496 50  0000 L CNN
@@ -504,7 +504,7 @@ F 3 "~" H 3800 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R6
+L cassette:R_US R6
 U 1 1 5E678C01
 P 3800 4300
 F 0 "R6" H 3868 4346 50  0000 L CNN
@@ -515,7 +515,7 @@ F 3 "~" H 3800 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R8
+L cassette:R_US R8
 U 1 1 5E67941E
 P 5000 4000
 F 0 "R8" H 5068 4046 50  0000 L CNN
@@ -526,7 +526,7 @@ F 3 "~" H 5000 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R7
+L cassette:R_US R7
 U 1 1 5E679B6C
 P 5000 3600
 F 0 "R7" H 5068 3646 50  0000 L CNN
@@ -537,7 +537,7 @@ F 3 "~" H 5000 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L cassette:GND #PWR04
 U 1 1 5E68922B
 P 4000 4450
 F 0 "#PWR04" H 4000 4200 50  0001 C CNN
@@ -548,7 +548,7 @@ F 3 "" H 4000 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR05
+L cassette:+5V #PWR05
 U 1 1 5E689A79
 P 4150 3300
 F 0 "#PWR05" H 4150 3150 50  0001 C CNN
@@ -652,7 +652,7 @@ A0
 Text Label 2250 7300 0    50   ~ 0
 -12V
 $Comp
-L power:+5V #PWR09
+L cassette:+5V #PWR09
 U 1 1 5E6F9E6D
 P 7500 4600
 F 0 "#PWR09" H 7500 4450 50  0001 C CNN
@@ -663,7 +663,7 @@ F 3 "" H 7500 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR013
+L cassette:+5V #PWR013
 U 1 1 5E6FA7E1
 P 9350 4600
 F 0 "#PWR013" H 9350 4450 50  0001 C CNN
@@ -903,7 +903,7 @@ Wire Wire Line
 Text Label 8050 2950 0    50   ~ 0
 PROM_A0
 $Comp
-L power:+5V #PWR017
+L cassette:+5V #PWR017
 U 1 1 5E7E0781
 P 9800 2350
 F 0 "#PWR017" H 9800 2200 50  0001 C CNN
@@ -914,7 +914,7 @@ F 3 "" H 9800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR015
+L cassette:+5V #PWR015
 U 1 1 5E7E0D97
 P 9800 1050
 F 0 "#PWR015" H 9800 900 50  0001 C CNN
@@ -925,7 +925,7 @@ F 3 "" H 9800 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR011
+L cassette:+5V #PWR011
 U 1 1 5E7E12A4
 P 9000 950
 F 0 "#PWR011" H 9000 800 50  0001 C CNN
@@ -941,7 +941,7 @@ Wire Wire Line
 NoConn ~ 4500 3550
 NoConn ~ 4600 3550
 $Comp
-L power:GND #PWR01
+L cassette:GND #PWR01
 U 1 1 5E84F1F0
 P 2800 4150
 F 0 "#PWR01" H 2800 3900 50  0001 C CNN
